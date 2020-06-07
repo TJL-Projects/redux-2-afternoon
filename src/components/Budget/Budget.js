@@ -21,6 +21,7 @@ class Budget extends Component {
   render() {
     const { loading, purchases, budgetLimit } = this.props.budget;
     const { firstName, lastName } = this.props.user;
+    //test
     return (
       <Background>
         {loading ? <Loading /> : null}
